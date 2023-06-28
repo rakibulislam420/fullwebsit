@@ -1,0 +1,227 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+/*background color*/
+.min-section-bg {
+  background-color: #f3f8f9;
+}
+
+/*header css*/
+
+.my-header .navbar-brand {
+  font-size: 20px;
+  font-weight: 600;
+}
+.my-header span {
+  background: #6278df;
+  color: #fff;
+  display: inline-block;
+  height: 45px;
+  width: 40px;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 2px;
+}
+/*slider section*/
+.slider-section {
+  background: url(img/Why\ your\ website\ should\ be\ mobile-friendly_2.jpg)
+    no-repeat center;
+  padding: 180px 0;
+  background-size: cover;
+  position: relative;
+  z-index: 9;
+}
+.slider-section::after {
+  content: "";
+  position: absolute;
+  background: rgba(47, 47, 47, 0.6);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.slider-section h4 {
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+.slider-section h2 {
+  margin-bottom: 50px;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.slider-section .form-control {
+}
+
+/*number-counter css*/
+
+.counter-number-item .h2 {
+  font-size: 60px;
+}
+.counter-number-item p {
+  font-size: 20px;
+}
+
+/*about-section css*/
+
+.about-section {
+  padding: 80px;
+  background: #f3f8f9;
+}
+
+.about-text-left {
+  margin-top: 120px;
+}
+
+.about-text-left h1 {
+  margin-bottom: 31px;
+}
+.about-text-left .lead {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*fecture-section css*/
+.fecture-section-text h1 {
+  font-size: 47px;
+  margin-bottom: 35px;
+}
+
+.fecture-section-text p {
+  font-size: 26px;
+  color: #5b5b5b;
+}
+.feature-item {
+  height: 300px;
+  box-shadow: 2.5px 4.33px 19px 0 rgba(64, 87, 197, 0.1);
+}
+.left-img-item {
+  width: 40%;
+  overflow: hidden;
+  border-radius: 5px 0 0 5px;
+}
+.left-text-item {
+  width: 60%;
+  padding: 19px;
+}
+.left-img-item img {
+  height: 100%;
+  width: auto;
+  max-width: inherit;
+  position: relative;
+  left: -80px;
+}
+
+/*portfolio-section css*/
+.protfolio-item {
+}
+.protfolio-item a {
+  position: relative;
+  display: block;
+}
+.protfolio-item a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(98, 120, 223, 0.7);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.protfolio-item:hover a::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*reicing-table-section*/
+.pricing-item {
+  background-color: #fff;
+  padding: 50px;
+  box-shadow: 2.5px 4.33px 19px 0 rgba(64, 87, 197, 0.1);
+  border-radius: 5px;
+}
+.pricing-item h1 {
+}
+.pricing-item h5 {
+}
+.pricing-item ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 50px;
+}
+.pricing-item ul li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #777;
+}
+.pricing-item ul li span {
+  color: #657be0;
+  font-size: 29px;
+  font-weight: bold;
+  width: 40px;
+  display: inline-block;
+}
+.pricing-item-button {
+}
+.pricing-item-button a {
+}
+
+/*testimonial-section css*/
+.outhor-info {
+  clear: fixed;
+  width: 225px;
+  margin: auto;
+}
+
+.outhor-info img {
+  width: 80px;
+  margin-right: 20px;
+}
+.rounded-circle {
+  float: left;
+}
+
+.user-detalis {
+  text-align: left;
+  position: relative;
+  top: 10px;
+}
+
+/*about-section css*/
+
+.about-item {
+  margin-top: 100px;
+}
+.about-item .card {
+}
+.about-item .card img {
+  width: 130px;
+  height: auto;
+  margin-top: -72px;
+  margin-left: 15px;
+}
+
+/*contact Us css*/
+.contact-item-div .card {
+  box-shadow: 2.5px 4.33px 19px 0 rgba(64, 87, 197, 0.2);
+  padding: 40px;
+}
